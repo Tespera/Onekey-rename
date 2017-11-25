@@ -6,17 +6,17 @@
 
 ### 使用方法：
 
-下载 <b>一键重命名.bat</b>。
+1、下载 <b>一键重命名.bat</b>。
 
-将其放在需要命名的文件所在的文件夹。
+2、将其放在需要命名的文件所在的文件夹。
 
-用记事本打开 <b>一键重命名.bat </b>文件。
+3、用记事本打开 <b>一键重命名.bat </b>文件。
 
-修改 <code>  for  /f "delims=" %%x in ('dir /b *.txt') do </code>  这一行代码的 <code> *.txt </code> 为你自己文件的扩展名，如 <code> *.mp3  </code> 
+4、修改 <code>  for  /f "delims=" %%x in ('dir /b *.txt') do </code>  这一行代码的 <code> *.txt </code> 为你自己文件的扩展名，如 <code> *.mp3 </code> 
 
-修改 <code> rename "%%x" "文件名 - !sum! .txt" </code> 该行代码的 “文件名” 为你自己想要命名的文件名，<code> *.txt </code> 修改为你自己文件的扩展名，如：<code> *.mp3 </code> 
+5、修改 <code> rename "%%x" "文件名 - !sum! .txt" </code> 该行代码的 “文件名” 为你自己想要命名的文件名，<code> *.txt </code> 修改为你自己文件的扩展名，如：<code> *.mp3 </code> 
 
-Ctrl + S 保存，双击 <b> 一键重命名.bat </b> 即可。
+6、Ctrl + S 保存，双击 <b> 一键重命名.bat </b> 即可。
 
-该文件夹下的所有文件将全部被格式化重命名，所见即所得。
+7、该文件夹下的所有文件将全部被格式化重命名，所见即所得。
 
