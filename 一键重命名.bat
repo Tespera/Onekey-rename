@@ -16,18 +16,24 @@ for  /f "delims=" %%x in ('dir /b *.txt') do (
     
         set /a sum+=1
         
-        rename "%%x" "ÎÄ¼şÃû - !sum! .txt"
+        rename "%%x" "æ–‡ä»¶å - !sum! .txt"
      
 )
 
 )
 
-
-Start  www.tespera.com 
-
-Echo  Successfully renamed £¡
+Echo  Renaming...... 
 Echo.
-Echo  ÒÑÎªÄú´ò¿ª×÷ÕßµÄ²©¿Í£¬¸ĞĞ»ÄúµÄä¯ÀÀ£¡
+ping 127.0.01 -n 2 >null
+Echo  Please wait a minuteï¼
+Echo.
+ping 127.0.01 -n 2 >null
+Echo  Successfully renamed ï¼
+Echo.
+
+ping 127.0.01 -n 3 >null
+Start  www.tespera.com 
+Echo  å·²ä¸ºæ‚¨æ‰“å¼€ä½œè€…çš„åšå®¢ï¼Œæ„Ÿè°¢æ‚¨çš„æµè§ˆï¼
 Echo.
 
 
